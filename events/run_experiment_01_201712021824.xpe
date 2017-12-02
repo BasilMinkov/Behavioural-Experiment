@@ -1,0 +1,14 @@
+#Expyriment 0.9.0 (Python 3.6.3), .xpe-file, coding: UTF-8
+#date: Sat Dec 02 2017 18:24:53
+#sha1: None
+#modules: 
+#display: size=(1440, 900), window_mode=False, open_gl=2
+#os: uname_result(system='Darwin', node='Basils-MacBook-Pro.local', release='17.2.0', version='Darwin Kernel Version 17.2.0: Fri Sep 29 18:27:05 PDT 2017; root:xnu-4570.20.62~3/RELEASE_X86_64', machine='x86_64', processor='i386')
+Time,Type,Event,Value,Detail,Detail2
+13345,design,log,
+#design: #exp: The Influence Of Emotions
+#design: block_cnt,block_id,trial_cnt,trial_id
+13345,design,logged,
+13345,Experiment,started
+13346,Experiment,ended
+13367,Stimulus,presented,725

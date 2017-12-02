@@ -1,0 +1,15 @@
+#Expyriment 0.9.0 (Python 3.6.3), .xpe-file, coding: UTF-8
+#date: Sat Dec 02 2017 18:22:13
+#sha1: None
+#modules: 
+#display: size=(800, 600), window_mode=True, open_gl=2
+#os: uname_result(system='Darwin', node='Basils-MacBook-Pro.local', release='17.2.0', version='Darwin Kernel Version 17.2.0: Fri Sep 29 18:27:05 PDT 2017; root:xnu-4570.20.62~3/RELEASE_X86_64', machine='x86_64', processor='i386')
+Time,Type,Event,Value,Detail,Detail2
+28862,stderr,received,'Traceback (most recent call last):'
+28862,stderr,received,'  File "/Users/basilminkov/Scripts/python3/experiment_replication/run_experiment.py", line 61, in <module>'
+28863,stderr,received,'    control.start()'
+28863,stderr,received,'  File "/Users/basilminkov/anaconda3/lib/python3.6/site-packages/expyriment/control/_experiment_control.py", line 215, in start'
+28863,stderr,received,'    experiment.keyboard.wait()'
+28863,stderr,received,'  File "/Users/basilminkov/anaconda3/lib/python3.6/site-packages/expyriment/io/_keyboard.py", line 307, in wait'
+28864,stderr,received,'    time.sleep(0.0005)'
+28864,stderr,received,'KeyboardInterrupt'

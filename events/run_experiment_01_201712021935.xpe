@@ -1,0 +1,185 @@
+#Expyriment 0.9.0 (Python 3.6.3), .xpe-file, coding: UTF-8
+#date: Sat Dec 02 2017 19:35:20
+#sha1: None
+#modules: 
+#display: size=(1440, 900), window_mode=False, open_gl=2
+#os: uname_result(system='Darwin', node='Basils-MacBook-Pro.local', release='17.2.0', version='Darwin Kernel Version 17.2.0: Fri Sep 29 18:27:05 PDT 2017; root:xnu-4570.20.62~3/RELEASE_X86_64', machine='x86_64', processor='i386')
+Time,Type,Event,Value,Detail,Detail2
+11189,design,log,
+#design: #exp: The Influence Of Emotions
+#design: block_cnt,block_id,trial_cnt,trial_id,Question
+#design: 0,0,0,64,False
+#design: 0,0,1,74,False
+#design: 0,0,2,116,False
+#design: 0,0,3,124,False
+#design: 0,0,4,36,False
+#design: 0,0,5,97,False
+#design: 0,0,6,83,False
+#design: 0,0,7,27,False
+#design: 0,0,8,31,False
+#design: 0,0,9,100,False
+#design: 0,0,10,85,False
+#design: 0,0,11,7,False
+#design: 0,0,12,127,False
+#design: 0,0,13,34,False
+#design: 0,0,14,28,False
+#design: 0,0,15,118,False
+#design: 0,0,16,109,False
+#design: 0,0,17,125,False
+#design: 0,0,18,132,False
+#design: 0,0,19,51,False
+#design: 0,0,20,16,False
+#design: 0,0,21,133,False
+#design: 0,0,22,40,True
+#design: 0,0,23,72,False
+#design: 0,0,24,15,False
+#design: 0,0,25,90,False
+#design: 0,0,26,47,True
+#design: 0,0,27,58,True
+#design: 0,0,28,55,False
+#design: 0,0,29,79,False
+#design: 0,0,30,93,False
+#design: 0,0,31,82,False
+#design: 0,0,32,6,False
+#design: 0,0,33,68,False
+#design: 0,0,34,84,False
+#design: 0,0,35,54,True
+#design: 0,0,36,8,False
+#design: 0,0,37,123,False
+#design: 0,0,38,67,True
+#design: 0,0,39,115,False
+#design: 0,0,40,13,True
+#design: 0,0,41,121,False
+#design: 0,0,42,49,True
+#design: 0,0,43,111,False
+#design: 0,0,44,24,False
+#design: 0,0,45,50,False
+#design: 0,0,46,1,False
+#design: 0,0,47,18,False
+#design: 0,0,48,48,False
+#design: 0,0,49,9,False
+#design: 0,0,50,70,True
+#design: 0,0,51,56,False
+#design: 0,0,52,105,False
+#design: 0,0,53,66,False
+#design: 0,0,54,45,False
+#design: 0,0,55,101,False
+#design: 0,0,56,77,False
+#design: 0,0,57,113,False
+#design: 0,0,58,104,False
+#design: 0,0,59,5,False
+#design: 0,0,60,120,False
+#design: 0,0,61,44,False
+#design: 0,0,62,35,False
+#design: 0,0,63,94,False
+#design: 0,0,64,81,False
+#design: 0,0,65,21,False
+#design: 0,0,66,39,False
+#design: 0,0,67,76,False
+#design: 0,0,68,0,False
+#design: 0,0,69,33,False
+#design: 0,0,70,107,False
+#design: 0,0,71,65,False
+#design: 0,0,72,26,False
+#design: 0,0,73,29,True
+#design: 0,0,74,69,False
+#design: 0,0,75,122,False
+#design: 0,0,76,98,False
+#design: 0,0,77,114,False
+#design: 0,0,78,42,False
+#design: 0,0,79,62,False
+#design: 0,0,80,59,False
+#design: 0,0,81,53,False
+#design: 0,0,82,119,False
+#design: 0,0,83,17,False
+#design: 0,0,84,96,False
+#design: 0,0,85,22,False
+#design: 0,0,86,4,False
+#design: 0,0,87,106,False
+#design: 0,0,88,2,False
+#design: 0,0,89,128,False
+#design: 0,0,90,117,False
+#design: 0,0,91,91,False
+#design: 0,0,92,43,False
+#design: 0,0,93,60,False
+#design: 0,0,94,73,False
+#design: 0,0,95,23,False
+#design: 0,0,96,80,False
+#design: 0,0,97,75,False
+#design: 0,0,98,95,False
+#design: 0,0,99,71,True
+#design: 0,0,100,25,True
+#design: 0,0,101,89,False
+#design: 0,0,102,112,False
+#design: 0,0,103,129,False
+#design: 0,0,104,20,False
+#design: 0,0,105,12,False
+#design: 0,0,106,41,False
+#design: 0,0,107,102,False
+#design: 0,0,108,10,True
+#design: 0,0,109,126,False
+#design: 0,0,110,87,False
+#design: 0,0,111,57,False
+#design: 0,0,112,32,False
+#design: 0,0,113,38,True
+#design: 0,0,114,3,False
+#design: 0,0,115,30,False
+#design: 0,0,116,131,False
+#design: 0,0,117,108,False
+#design: 0,0,118,61,True
+#design: 0,0,119,46,False
+#design: 0,0,120,99,False
+#design: 0,0,121,11,False
+#design: 0,0,122,130,False
+#design: 0,0,123,92,False
+#design: 0,0,124,63,True
+#design: 0,0,125,103,False
+#design: 0,0,126,19,False
+#design: 0,0,127,78,False
+#design: 0,0,128,37,False
+#design: 0,0,129,86,False
+#design: 0,0,130,110,False
+#design: 0,0,131,135,False
+#design: 0,0,132,88,False
+#design: 0,0,133,134,False
+#design: 0,0,134,52,False
+#design: 0,0,135,14,False
+11190,design,logged,
+11190,Experiment,started
+11258,Stimulus,presented,861
+12629,Keyboard,received,32,wait
+12629,Stimulus,presented,0
+13133,stdout,received,'<expyriment.stimuli._textline.TextLine object at 0x11b512e48>'
+13133,Stimulus,presented,408
+14449,Stimulus,presented,0
+15666,Stimulus,presented,409
+16983,Stimulus,presented,0
+18200,Stimulus,presented,410
+19517,Stimulus,presented,0
+20734,Stimulus,presented,411
+22051,Stimulus,presented,0
+23268,Stimulus,presented,412
+24584,Stimulus,presented,0
+25801,Stimulus,presented,413
+27118,Stimulus,presented,0
+28635,Stimulus,presented,414
+37517,Keyboard,received,273,wait
+37517,Stimulus,presented,0
+38020,stdout,received,'<expyriment.stimuli._textline.TextLine object at 0x11b52ffd0>'
+38020,Stimulus,presented,472
+39337,Stimulus,presented,0
+40554,Stimulus,presented,473
+41871,Stimulus,presented,0
+43088,Stimulus,presented,474
+44404,Stimulus,presented,0
+45621,Stimulus,presented,475
+46938,Stimulus,presented,0
+48155,Stimulus,presented,476
+49472,Stimulus,presented,0
+50989,Stimulus,presented,477
+51892,Experiment,paused
+51895,Stimulus,presented,862
+53382,Keyboard,received,b'y',wait_char
+53382,Experiment,ended
+53389,Data,saved
+53392,Stimulus,presented,862
