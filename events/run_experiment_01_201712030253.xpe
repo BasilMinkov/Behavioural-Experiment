@@ -1,0 +1,228 @@
+#Expyriment 0.9.0 (Python 3.6.3), .xpe-file, coding: cp1251
+#date: Sun Dec 03 2017 02:53:49
+#sha1: None
+#modules: 
+#display: size=(2880, 1800), window_mode=False, open_gl=2
+#os: uname_result(system='Windows', node='DESKTOP-5OAJ3E3', release='10', version='10.0.16299', machine='AMD64', processor='Intel64 Family 6 Model 58 Stepping 9, GenuineIntel')
+Time,Type,Event,Value,Detail,Detail2
+19948,design,log,
+#design: #exp: The Influence Of Emotions
+#design: #dvn: Block,Trial,Key Stimulus,RT Stimulus,Key Question,RT Question
+#design: block_cnt,block_id,trial_cnt,trial_id,Question
+#design: 0,0,0,70,True
+#design: 0,0,1,54,True
+#design: 0,0,2,87,False
+#design: 0,0,3,58,True
+#design: 0,0,4,103,False
+#design: 0,0,5,5,False
+#design: 0,0,6,100,False
+#design: 0,0,7,25,True
+#design: 0,0,8,63,True
+#design: 0,0,9,94,False
+#design: 0,0,10,91,False
+#design: 0,0,11,68,False
+#design: 0,0,12,81,False
+#design: 0,0,13,107,False
+#design: 0,0,14,49,True
+#design: 0,0,15,116,False
+#design: 0,0,16,124,False
+#design: 0,0,17,7,False
+#design: 0,0,18,41,False
+#design: 0,0,19,57,False
+#design: 0,0,20,119,False
+#design: 0,0,21,14,False
+#design: 0,0,22,9,False
+#design: 0,0,23,96,False
+#design: 0,0,24,15,False
+#design: 0,0,25,1,False
+#design: 0,0,26,102,False
+#design: 0,0,27,115,False
+#design: 0,0,28,89,False
+#design: 0,0,29,135,False
+#design: 0,0,30,39,False
+#design: 0,0,31,113,False
+#design: 0,0,32,106,False
+#design: 0,0,33,33,False
+#design: 0,0,34,74,False
+#design: 0,0,35,66,False
+#design: 0,0,36,111,False
+#design: 0,0,37,29,True
+#design: 0,0,38,8,False
+#design: 0,0,39,120,False
+#design: 0,0,40,65,False
+#design: 0,0,41,71,True
+#design: 0,0,42,40,True
+#design: 0,0,43,75,False
+#design: 0,0,44,117,False
+#design: 0,0,45,43,False
+#design: 0,0,46,108,False
+#design: 0,0,47,38,True
+#design: 0,0,48,26,False
+#design: 0,0,49,112,False
+#design: 0,0,50,18,False
+#design: 0,0,51,13,True
+#design: 0,0,52,56,False
+#design: 0,0,53,27,False
+#design: 0,0,54,46,False
+#design: 0,0,55,44,False
+#design: 0,0,56,109,False
+#design: 0,0,57,84,False
+#design: 0,0,58,99,False
+#design: 0,0,59,105,False
+#design: 0,0,60,12,False
+#design: 0,0,61,48,False
+#design: 0,0,62,125,False
+#design: 0,0,63,83,False
+#design: 0,0,64,80,False
+#design: 0,0,65,22,False
+#design: 0,0,66,134,False
+#design: 0,0,67,16,False
+#design: 0,0,68,85,False
+#design: 0,0,69,37,False
+#design: 0,0,70,77,False
+#design: 0,0,71,62,False
+#design: 0,0,72,128,False
+#design: 0,0,73,123,False
+#design: 0,0,74,24,False
+#design: 0,0,75,98,False
+#design: 0,0,76,118,False
+#design: 0,0,77,6,False
+#design: 0,0,78,79,False
+#design: 0,0,79,82,False
+#design: 0,0,80,73,False
+#design: 0,0,81,114,False
+#design: 0,0,82,126,False
+#design: 0,0,83,10,True
+#design: 0,0,84,122,False
+#design: 0,0,85,121,False
+#design: 0,0,86,130,False
+#design: 0,0,87,110,False
+#design: 0,0,88,78,False
+#design: 0,0,89,34,False
+#design: 0,0,90,129,False
+#design: 0,0,91,30,False
+#design: 0,0,92,131,False
+#design: 0,0,93,64,False
+#design: 0,0,94,4,False
+#design: 0,0,95,2,False
+#design: 0,0,96,127,False
+#design: 0,0,97,35,False
+#design: 0,0,98,76,False
+#design: 0,0,99,67,True
+#design: 0,0,100,90,False
+#design: 0,0,101,20,False
+#design: 0,0,102,60,False
+#design: 0,0,103,36,False
+#design: 0,0,104,61,True
+#design: 0,0,105,51,False
+#design: 0,0,106,93,False
+#design: 0,0,107,72,False
+#design: 0,0,108,53,False
+#design: 0,0,109,101,False
+#design: 0,0,110,52,False
+#design: 0,0,111,17,False
+#design: 0,0,112,92,False
+#design: 0,0,113,88,False
+#design: 0,0,114,28,False
+#design: 0,0,115,133,False
+#design: 0,0,116,59,False
+#design: 0,0,117,19,False
+#design: 0,0,118,132,False
+#design: 0,0,119,104,False
+#design: 0,0,120,42,False
+#design: 0,0,121,86,False
+#design: 0,0,122,50,False
+#design: 0,0,123,55,False
+#design: 0,0,124,3,False
+#design: 0,0,125,95,False
+#design: 0,0,126,0,False
+#design: 0,0,127,23,False
+#design: 0,0,128,11,False
+#design: 0,0,129,31,False
+#design: 0,0,130,97,False
+#design: 0,0,131,69,False
+#design: 0,0,132,32,False
+#design: 0,0,133,21,False
+#design: 0,0,134,47,True
+#design: 0,0,135,45,False
+19951,design,logged,
+19951,Experiment,started
+20108,Stimulus,presented,861
+22188,Keyboard,received,273,wait
+22188,Stimulus,presented,446
+27203,Stimulus,presented,0
+27714,Stimulus,presented,447
+28026,Stimulus,presented,0
+28239,Stimulus,presented,448
+28552,Stimulus,presented,0
+28763,Stimulus,presented,449
+29075,Stimulus,presented,0
+29288,Stimulus,presented,450
+29799,Stimulus,presented,451
+31595,Keyboard,received,273,wait
+31596,Stimulus,presented,452
+34412,Keyboard,received,273,wait
+34413,Stimulus,presented,343
+39432,Stimulus,presented,0
+39944,Stimulus,presented,344
+40257,Stimulus,presented,0
+40469,Stimulus,presented,345
+40780,Stimulus,presented,0
+40992,Stimulus,presented,346
+41305,Stimulus,presented,0
+41516,Stimulus,presented,347
+42028,Stimulus,presented,348
+43451,Keyboard,received,273,wait
+43452,Stimulus,presented,349
+49899,Keyboard,received,274,wait
+49900,Stimulus,presented,556
+54913,Stimulus,presented,0
+55426,Stimulus,presented,557
+55737,Stimulus,presented,0
+55948,Stimulus,presented,558
+56261,Stimulus,presented,0
+56474,Stimulus,presented,559
+56785,Stimulus,presented,0
+56997,Stimulus,presented,560
+57510,Stimulus,presented,561
+58691,Keyboard,received,273,wait
+58692,Stimulus,presented,368
+63703,Stimulus,presented,0
+64215,Stimulus,presented,369
+64528,Stimulus,presented,0
+64740,Stimulus,presented,370
+65051,Stimulus,presented,0
+65263,Stimulus,presented,371
+65576,Stimulus,presented,0
+65787,Stimulus,presented,372
+66299,Stimulus,presented,373
+67403,Keyboard,received,273,wait
+67404,Stimulus,presented,374
+72259,Keyboard,received,273,wait
+72260,Stimulus,presented,655
+77271,Stimulus,presented,0
+77783,Stimulus,presented,656
+78096,Stimulus,presented,0
+78307,Stimulus,presented,657
+78619,Stimulus,presented,0
+78831,Stimulus,presented,658
+79144,Stimulus,presented,0
+79355,Stimulus,presented,659
+79867,Stimulus,presented,660
+80851,Keyboard,received,274,wait
+80851,Stimulus,presented,31
+85865,Stimulus,presented,0
+86391,Stimulus,presented,32
+86703,Stimulus,presented,0
+86916,Stimulus,presented,33
+87229,Stimulus,presented,0
+87440,Stimulus,presented,34
+87752,Stimulus,presented,0
+87965,Stimulus,presented,35
+88477,Stimulus,presented,36
+88890,Experiment,paused
+88897,Stimulus,presented,862
+101787,Keyboard,received,b'y',wait_char
+101787,Experiment,ended
+101832,Data,saved
+101836,Stimulus,presented,862
