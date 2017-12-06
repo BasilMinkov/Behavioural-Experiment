@@ -41,9 +41,11 @@ for i in range(len(phrases)):
         stim = stimuli.TextLine(text=word, text_colour=misc.constants.C_WHITE)
         stim.preload()
         trial.add_stimulus(stim)
-    stim = stimuli.TextLine(text=splitted_phrase2[-1], text_colour=random_colour[random.randint(0, 1)])
+    current_colour = random.randint(0, 1)
+    stim = stimuli.TextLine(text=splitted_phrase2[-1], text_colour=random_colour[current_colour])
     stim.preload()
     trial.add_stimulus(stim)
+    trial.set_factor("Colour", current_colour)
 
     if phrases[i][2] is not None:
         stim = stimuli.TextLine(text=phrases[i][2], text_colour=misc.constants.C_WHITE)
@@ -60,7 +62,9 @@ block.shuffle_trials()
 exp.add_block(block)
 
 # Set data variable names
-exp.data_variable_names = ["Block", "Trial", "Key Stimulus", "RT Stimulus", "Key Question", "RT Question"]
+exp.data_variable_names = ["Colour", "Trial", "Key Stimulus", "RT Stimulus", "Key Question", "RT Question"]
+# exp.misc.data_preprocessing.write_csv_file(["Colour", "Block", "Trial", "Key Stimulus", "RT Stimulus", "Key Question",
+#                                             "RT Question"])
 
 if __name__ == "__main__":
 
@@ -104,7 +108,8 @@ if __name__ == "__main__":
                 key2, rt2 = exp.keyboard.wait(response_keys)
 
                 # Save the results to the data file.
-                exp.data.add([trial.id, key1, rt1, key2, rt2])
+                exp.data.add([trial.get_factor("Colour"), trial.id, key1, rt1, key2, rt2])
+                # exp.misc.data_preprocessing.write_csv_file([trial.get_factor("Colour"), trial.id, key1, rt1, key2, rt2])
 
             else:
                 for stimulus in trial.stimuli[1:-2]:
@@ -122,6 +127,6 @@ if __name__ == "__main__":
                 key1, rt1 = exp.keyboard.wait(response_keys)
 
                 # Save the results to the data file.
-                exp.data.add([trial.id, key1, rt1])
+                exp.data.add([trial.get_factor("Colour"), trial.id, key1, rt1])
 
     control.end()
