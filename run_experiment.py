@@ -1,3 +1,5 @@
+"""This code is used to run an experiment with expyriment package"""
+
 import random
 from expyriment import design, control, stimuli, io, misc
 from prepare_dataset import prepare_phrases, prepare_instruction

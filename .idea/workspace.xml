@@ -2,10 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6032cf89-912e-44cc-ba83-bb7aff237676" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data_processing.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/events/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/README.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/output.csv" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/stimuli/text/Kontrolny_faul.docx" afterPath="$PROJECT_DIR$/static/stimuli/text/Kontrolny_faul.docx" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data_processing.py" afterPath="$PROJECT_DIR$/data_processing.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/prepare_dataset.py" afterPath="$PROJECT_DIR$/prepare_dataset.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/run_experiment.py" afterPath="$PROJECT_DIR$/run_experiment.py" />
     </list>
+    <ignored path="$PROJECT_DIR$/.idea/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,45 +22,53 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="run_experiment.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/run_experiment.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1800">
-              <caret line="120" column="20" lean-forward="true" selection-start-line="120" selection-start-column="20" selection-end-line="120" selection-end-column="20" />
-              <folding>
-                <element signature="e#0#13#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="data_processing.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/data_processing.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="60">
-              <caret line="4" column="26" lean-forward="false" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
+              <caret line="4" column="10" lean-forward="true" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="10" />
               <folding>
-                <element signature="e#0#9#0" expanded="true" />
+                <element signature="e#93#102#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="output.csv" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/output.csv">
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/data/README.md">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <caret line="0" column="32" lean-forward="false" selection-start-line="0" selection-start-column="32" selection-end-line="0" selection-end-column="32" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="instruction.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/static/instruction.txt">
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/events/README.md">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
-              <caret line="0" column="43" lean-forward="false" selection-start-line="0" selection-start-column="43" selection-end-line="0" selection-end-column="43" />
+              <caret line="0" column="39" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="40" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/static/README.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="50" lean-forward="false" selection-start-line="4" selection-start-column="50" selection-end-line="4" selection-end-column="50" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="6" lean-forward="false" selection-start-line="0" selection-start-column="6" selection-end-line="0" selection-end-column="6" />
               <folding />
             </state>
           </provider>
@@ -62,8 +77,18 @@
       <file leaf-file-name="prepare_dataset.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/prepare_dataset.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="9" lean-forward="false" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
+            <state relative-caret-position="30">
+              <caret line="2" column="9" lean-forward="false" selection-start-line="2" selection-start-column="9" selection-end-line="2" selection-end-column="9" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="run_experiment.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/run_experiment.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="3" column="15" lean-forward="false" selection-start-line="3" selection-start-column="5" selection-end-line="3" selection-end-column="15" />
               <folding />
             </state>
           </provider>
@@ -80,9 +105,69 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>absolute_import</find>
-      <find>Print_func</find>
+      <find>33,</find>
+      <find>32,</find>
+      <find>31,</find>
+      <find>49,</find>
+      <find>50,</find>
+      <find>29,</find>
+      <find>28,</find>
+      <find>27,</find>
+      <find>,</find>
+      <find>12,</find>
+      <find>13,</find>
+      <find>14,</find>
+      <find>16,</find>
+      <find>6,</find>
+      <find>5,</find>
+      <find>4,</find>
+      <find>25,</find>
+      <find>24,</find>
+      <find>18,</find>
+      <find>19,</find>
+      <find>60,</find>
+      <find>20,</find>
+      <find>21,</find>
+      <find>22,</find>
+      <find>23,</find>
+      <find>42,</find>
+      <find>018,</find>
+      <find>02,</find>
+      <find>3,</find>
+      <find>2,</find>
     </findStrings>
+    <replaceStrings>
+      <replace>52,</replace>
+      <replace>100,</replace>
+      <replace>101,</replace>
+      <replace>104,</replace>
+      <replace>105,</replace>
+      <replace>106,</replace>
+      <replace>107,</replace>
+      <replace>108,</replace>
+      <replace>109,</replace>
+      <replace>110,</replace>
+      <replace>39,</replace>
+      <replace>40,</replace>
+      <replace>41,</replace>
+      <replace>42,</replace>
+      <replace>54,</replace>
+      <replace>55,</replace>
+      <replace>63,</replace>
+      <replace>62,</replace>
+      <replace>61,</replace>
+      <replace>60,</replace>
+      <replace>59,</replace>
+      <replace>58,</replace>
+      <replace>57,</replace>
+      <replace>56,</replace>
+      <replace>43,</replace>
+      <replace>180,</replace>
+      <replace>201,</replace>
+      <replace>200,</replace>
+      <replace>103,</replace>
+      <replace>102,</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -90,28 +175,63 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/generate_unique_trial_types.py" />
-        <option value="$PROJECT_DIR$/trial_procedure.py" />
-        <option value="$PROJECT_DIR$/get_session_variables.py" />
-        <option value="$PROJECT_DIR$/load_stimuli.py" />
-        <option value="$PROJECT_DIR$/variables.py" />
-        <option value="$PROJECT_DIR$/static/instruction" />
-        <option value="$PROJECT_DIR$/prepare_dataset.py" />
-        <option value="$PROJECT_DIR$/helper_functions.py" />
-        <option value="$PROJECT_DIR$/static/instruction.txt" />
-        <option value="$PROJECT_DIR$/setup.py" />
+        <option value="$PROJECT_DIR$/generator.py" />
+        <option value="$PROJECT_DIR$/qwe/run_experiment_017_201712241357.xpd" />
+        <option value="$PROJECT_DIR$/qwe/run_experiment_018_201712241357.xpd" />
+        <option value="$PROJECT_DIR$/qwe/run_experiment_19_201712241357.xpd" />
+        <option value="$PROJECT_DIR$/qwe/run_experiment_33_201712241706.xpd" />
+        <option value="$PROJECT_DIR$/qwe/run_experiment_32_201712241527.xpd" />
+        <option value="$PROJECT_DIR$/qwe/run_experiment_31_201712231735.xpd" />
+        <option value="$PROJECT_DIR$/qwe/run_experiment_30_201712231703.xpd" />
+        <option value="$PROJECT_DIR$/qwe/run_experiment_49_201712231703.xpd" />
+        <option value="$PROJECT_DIR$/qwe/run_experiment_50_201712231640.xpd" />
+        <option value="$PROJECT_DIR$/qwe/run_experiment_28_201712231433.xpd" />
+        <option value="$PROJECT_DIR$/qwe/run_experiment_27_201712231410.xpd" />
+        <option value="$PROJECT_DIR$/qwe/run_experiment_26_201712231217.xpd" />
+        <option value="$PROJECT_DIR$/qwe/run_experiment_60_201712241459.xpd" />
+        <option value="$PROJECT_DIR$/data/run_experiment_0006_201712181459.xpd" />
+        <option value="$PROJECT_DIR$/data/run_experiment_0006_201712221457.xpd" />
+        <option value="$PROJECT_DIR$/data/run_experiment_0008_201712212056.xpd" />
+        <option value="$PROJECT_DIR$/data/run_experiment_12_201712191259.xpd" />
+        <option value="$PROJECT_DIR$/data/run_experiment_13_201712191321.xpd" />
+        <option value="$PROJECT_DIR$/data/run_experiment_014_201712240347.xpd" />
+        <option value="$PROJECT_DIR$/data/run_experiment_016_201712240453.xpd" />
+        <option value="$PROJECT_DIR$/data/run_experiment_018_201712241430.xpd" />
+        <option value="$PROJECT_DIR$/data/run_experiment_019_201712241459.xpd" />
+        <option value="$PROJECT_DIR$/data/run_experiment_39_201712221457.xpd" />
+        <option value="$PROJECT_DIR$/data/run_experiment_40_201712221650.xpd" />
+        <option value="$PROJECT_DIR$/data/run_experiment_41_201712181459.xpd" />
+        <option value="$PROJECT_DIR$/data/run_experiment_42_201712181422.xpd" />
+        <option value="$PROJECT_DIR$/data/run_experiment_54_201712231155.xpd" />
+        <option value="$PROJECT_DIR$/data/run_experiment_55_201712231126.xpd" />
+        <option value="$PROJECT_DIR$/data/run_experiment_56_201712231104.xpd" />
+        <option value="$PROJECT_DIR$/data/run_experiment_57_201712231041.xpd" />
+        <option value="$PROJECT_DIR$/data/run_experiment_58_201712211818.xpd" />
+        <option value="$PROJECT_DIR$/data/run_experiment_59_201712211729.xpd" />
+        <option value="$PROJECT_DIR$/data/run_experiment_61_201712192012.xpd" />
+        <option value="$PROJECT_DIR$/data/run_experiment_62_201712241430.xpd" />
+        <option value="$PROJECT_DIR$/data/run_experiment_63_201712191950.xpd" />
+        <option value="$PROJECT_DIR$/data/run_experiment_43_201712221355.xpd" />
+        <option value="$PROJECT_DIR$/data/run_experiment_017_201712241357.xpd" />
+        <option value="$PROJECT_DIR$/data/run_experiment_11_201712191239.xpd" />
+        <option value="$PROJECT_DIR$/data/run_experiment_0007_201712212031.xpd" />
+        <option value="$PROJECT_DIR$/data/run_experiment_0001_201712212031.xpd" />
+        <option value="$PROJECT_DIR$/data/run_experiment_15_201712191340.xpd" />
+        <option value="$PROJECT_DIR$/data/run_experiment_003_201712212056.xpd" />
+        <option value="$PROJECT_DIR$/data/run_experiment_002_201712212031.xpd" />
         <option value="$PROJECT_DIR$/run_experiment.py" />
-        <option value="$PROJECT_DIR$/data/run_experiment_99_201712061230.xpd" />
-        <option value="$PROJECT_DIR$/output.csv" />
+        <option value="$PROJECT_DIR$/prepare_dataset.py" />
         <option value="$PROJECT_DIR$/data_processing.py" />
+        <option value="$PROJECT_DIR$/static/README.md" />
+        <option value="$PROJECT_DIR$/events/README.md" />
+        <option value="$PROJECT_DIR$/data/README.md" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="61" />
-    <option name="y" value="23" />
-    <option name="width" value="1379" />
-    <option name="height" value="877" />
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="width" value="1440" />
+    <option name="height" value="900" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -129,6 +249,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -136,12 +258,25 @@
               <item name="experiment_replication" type="b2602c69:ProjectViewProjectNode" />
               <item name="experiment_replication" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="experiment_replication" type="b2602c69:ProjectViewProjectNode" />
+              <item name="experiment_replication" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="experiment_replication" type="b2602c69:ProjectViewProjectNode" />
+              <item name="experiment_replication" type="462c0819:PsiDirectoryNode" />
+              <item name="events" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="experiment_replication" type="b2602c69:ProjectViewProjectNode" />
+              <item name="experiment_replication" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -150,8 +285,16 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/static" />
+      <recent name="$PROJECT_DIR$/data" />
       <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/static" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/static" />
+      <recent name="$PROJECT_DIR$/events" />
+      <recent name="$PROJECT_DIR$/data" />
+      <recent name="$PROJECT_DIR$/qwe" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -229,26 +372,30 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="61" y="23" width="1379" height="877" extended-state="0" />
+    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24981302" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="SFDX" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3286445" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29795396" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32992327" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2974607" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Execute Anonymous" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39897698" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2639485" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Log Manager" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39897698" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297568" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Salesforce" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32769045" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -262,192 +409,104 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/data/run_experiment_28_201712231433.xpd" />
+    <entry file="file://$PROJECT_DIR$/data/run_experiment_27_201712231410.xpd" />
+    <entry file="file://$PROJECT_DIR$/data/run_experiment_26_201712231217.xpd" />
+    <entry file="file://$PROJECT_DIR$/data/run_experiment_25_201712231155.xpd" />
+    <entry file="file://$PROJECT_DIR$/data/run_experiment_24_201712231126.xpd" />
+    <entry file="file://$PROJECT_DIR$/data/run_experiment_23_201712231104.xpd" />
+    <entry file="file://$PROJECT_DIR$/data/run_experiment_22_201712231041.xpd" />
+    <entry file="file://$PROJECT_DIR$/data/run_experiment_21_201712211818.xpd" />
+    <entry file="file://$PROJECT_DIR$/data/run_experiment_20_201712211729.xpd" />
+    <entry file="file://$PROJECT_DIR$/data/run_experiment_019_201712241459.xpd" />
+    <entry file="file://$PROJECT_DIR$/data/run_experiment_19_201712192012.xpd" />
+    <entry file="file://$PROJECT_DIR$/data/run_experiment_018_201712241430.xpd" />
+    <entry file="file://$PROJECT_DIR$/data/run_experiment_18_201712191950.xpd" />
+    <entry file="file://$PROJECT_DIR$/data/run_experiment_017_201712241357.xpd" />
+    <entry file="file://$PROJECT_DIR$/data/run_experiment_17_201712191440.xpd" />
+    <entry file="file://$PROJECT_DIR$/data/run_experiment_016_201712240453.xpd" />
+    <entry file="file://$PROJECT_DIR$/data/run_experiment_16_201712191419.xpd" />
+    <entry file="file://$PROJECT_DIR$/data/run_experiment_015_201712240408.xpd" />
+    <entry file="file://$PROJECT_DIR$/data/run_experiment_15_201712191340.xpd" />
+    <entry file="file://$PROJECT_DIR$/data/run_experiment_014_201712240347.xpd" />
+    <entry file="file://$PROJECT_DIR$/data/run_experiment_14_201712191355.xpd" />
+    <entry file="file://$PROJECT_DIR$/data/run_experiment_13_201712191321.xpd" />
+    <entry file="file://$PROJECT_DIR$/data/run_experiment_12_201712191259.xpd" />
+    <entry file="file://$PROJECT_DIR$/data/run_experiment_10_201712181929.xpd" />
+    <entry file="file://$PROJECT_DIR$/data/run_experiment_09_201712181903.xpd" />
+    <entry file="file://$PROJECT_DIR$/data/run_experiment_11_201712191239.xpd" />
+    <entry file="file://$PROJECT_DIR$/data/run_experiment_008_201712221821.xpd" />
+    <entry file="file://$PROJECT_DIR$/data/run_experiment_08_201712181841.xpd" />
+    <entry file="file://$PROJECT_DIR$/data/run_experiment_07_201712191216.xpd" />
+    <entry file="file://$PROJECT_DIR$/data/run_experiment_006_201712221650.xpd" />
+    <entry file="file://$PROJECT_DIR$/data/run_experiment_06_201712181459.xpd" />
+    <entry file="file://$PROJECT_DIR$/data/run_experiment_005_201712221457.xpd" />
+    <entry file="file://$PROJECT_DIR$/data/run_experiment_05_201712181422.xpd" />
+    <entry file="file://$PROJECT_DIR$/data/run_experiment_004_201712221355.xpd" />
+    <entry file="file://$PROJECT_DIR$/data/run_experiment_04_201712181356.xpd" />
+    <entry file="file://$PROJECT_DIR$/data/run_experiment_003_201712212056.xpd" />
+    <entry file="file://$PROJECT_DIR$/data/run_experiment_03_201712181331.xpd" />
+    <entry file="file://$PROJECT_DIR$/data/run_experiment_02_201712181250.xpd" />
+    <entry file="file://$PROJECT_DIR$/data/run_experiment_01_201712181805.xpd" />
+    <entry file="file://$PROJECT_DIR$/data/run_experiment_002_201712212031.xpd" />
+    <entry file="file://$PROJECT_DIR$/data/run_experiment_098_201712212031.xpd" />
+    <entry file="file://$PROJECT_DIR$/data/run12312313.xpd" />
+    <entry file="file://$PROJECT_DIR$/data/run12322231231123213.xpd" />
+    <entry file="file://$PROJECT_DIR$/output.csv" />
+    <entry file="file://$PROJECT_DIR$/events/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="39" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="32" lean-forward="false" selection-start-line="0" selection-start-column="32" selection-end-line="0" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="50" lean-forward="false" selection-start-line="4" selection-start-column="50" selection-end-line="4" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/run_experiment.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="10" lean-forward="false" selection-start-line="1" selection-start-column="10" selection-end-line="1" selection-end-column="10" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/prepare_dataset.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="9" lean-forward="false" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
+        <state relative-caret-position="45">
+          <caret line="3" column="15" lean-forward="false" selection-start-line="3" selection-start-column="5" selection-end-line="3" selection-end-column="15" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/static/instruction.txt">
+    <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="43" lean-forward="false" selection-start-line="0" selection-start-column="43" selection-end-line="0" selection-end-column="43" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/run_experiment.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/instruction.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="106" lean-forward="false" selection-start-line="0" selection-start-column="106" selection-end-line="0" selection-end-column="106" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/prepare_dataset.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="615">
-          <caret line="41" column="34" lean-forward="false" selection-start-line="41" selection-start-column="34" selection-end-line="41" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/run_experiment.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/run_experiment.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="14" lean-forward="true" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cycle_through_experiment.py" />
-    <entry file="file://$PROJECT_DIR$/generate_unique_trial_types.py" />
-    <entry file="file://$PROJECT_DIR$/variables.py" />
-    <entry file="file://$PROJECT_DIR$/trial_procedure.py" />
-    <entry file="file://$PROJECT_DIR$/load_stimuli.py" />
-    <entry file="file://$PROJECT_DIR$/get_session_variables.py" />
-    <entry file="file://$PROJECT_DIR$/helper_functions.py" />
-    <entry file="file://$PROJECT_DIR$/data/run_experiment_01_201712021824.xpd" />
-    <entry file="file://$PROJECT_DIR$/data/run_experiment_46_201712021922.xpd" />
-    <entry file="file://$USER_HOME$/anaconda3/lib/python3.6/site-packages/expyriment/control/_experiment_control.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="75" column="63" lean-forward="true" selection-start-line="75" selection-start-column="63" selection-end-line="75" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/setup.py" />
-    <entry file="file://$PROJECT_DIR$/../../topography.py" />
-    <entry file="file://$USER_HOME$/anaconda3/lib/python3.6/site-packages/pandas/io/common.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-123">
-          <caret line="384" column="0" lean-forward="false" selection-start-line="384" selection-start-column="0" selection-end-line="384" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/anaconda3/lib/python3.6/site-packages/IPython/core/interactiveshell.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="166">
-          <caret line="2861" column="0" lean-forward="false" selection-start-line="2861" selection-start-column="0" selection-end-line="2861" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eggs.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/anaconda3/lib/python3.6/site-packages/expyriment/misc/data_preprocessing.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="370">
-          <caret line="300" column="52" lean-forward="true" selection-start-line="300" selection-start-column="52" selection-end-line="300" selection-end-column="52" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/run_experiment_99_201712061230.xpd">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="15" lean-forward="true" selection-start-line="20" selection-start-column="15" selection-end-line="20" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/events/run_experiment_99_201712061230.xpe">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1799">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/df.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/instruction.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="43" lean-forward="false" selection-start-line="0" selection-start-column="43" selection-end-line="0" selection-end-column="43" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/output.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="0" column="6" lean-forward="false" selection-start-line="0" selection-start-column="6" selection-end-line="0" selection-end-column="6" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/prepare_dataset.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="9" lean-forward="false" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
+        <state relative-caret-position="30">
+          <caret line="2" column="9" lean-forward="false" selection-start-line="2" selection-start-column="9" selection-end-line="2" selection-end-column="9" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/run_experiment.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1800">
-          <caret line="120" column="20" lean-forward="true" selection-start-line="120" selection-start-column="20" selection-end-line="120" selection-end-column="20" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/data_processing.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
-          <caret line="4" column="26" lean-forward="false" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
+          <caret line="4" column="10" lean-forward="true" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="10" />
           <folding>
-            <element signature="e#0#9#0" expanded="true" />
+            <element signature="e#93#102#0" expanded="true" />
           </folding>
         </state>
       </provider>

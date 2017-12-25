@@ -1,3 +1,5 @@
+"""This code is used to prepare data to run an experiment with expyriment package"""
+
 import os
 
 
