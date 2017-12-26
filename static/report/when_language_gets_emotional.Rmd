@@ -46,9 +46,17 @@ knitr::opts_chunk$set(echo = TRUE)
 
   Для анализа планируется использовать двухфакторный дисперсионного анализ с повторными измерениями, где факторами являются эмоциональная окраска предложений и нажатие определенной кнопки.
   
-  1) Так как цвет стимула в этом эксперименте не представляет интереса, заменяем его на эмоциональную окарску предложения.
-  2) Перед тем, как подсчитать ANOVA, необходимо подсчитать средние значения времени реакции для каждого стимула для двух факторов - эмоциональной окраски предложения (Colour), кнопки на клавиатуре (Key_Stimulus).
-  3) ANOVA с учетом ошибки (функция Error).
+  0. Чтение данных
+  1. Подготовка данных и выбор факторов
+  2. Начало обработки основного набора данных
+  3. Подготовка средних значений
+  4. Вычисление ANOVA
+  5. Начало обработки данных с положительными предложениями
+  6. Подготовка средних значений
+  7. Вычисление ANOVA
+  8. Начало обработки данных с положительными предложениями
+  9. Подготовка средних значений
+  10. Вычисление ANOVA
   
 ### Отличия от оригинального исследования
 
@@ -68,17 +76,46 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ```{r cars, echo=FALSE}
 
+# Algorithm
+
+# 0. Read data
+
 df <- read.csv(file="/Users/basilminkov/Scripts/python3/experiment_replication/output.csv", header=FALSE, sep=",")
 colnames(df) <- c("Subject", "Colour", "Trial", "Key_Stimulus", "RT_Stimulus")
 
-# 1.
+# 1. Prepare datasets and set factors
 
 df <- subset(df, Trial < 80)
 df$Colour[df$Trial>=0 & df$Trial < 40] <- 0 # positive trial
 df$Colour[df$Trial>=40 & df$Trial < 80] <- 1 # negative trial
 
+df_pos <- subset(df, Colour==0)
+df_neg <- subset(df, Colour==1)
 
-# 2.
+df <- within(df, {
+  Subject   <- factor(Subject)
+  Colour <- factor(Colour)
+  Key_Stimulus <- factor(Key_Stimulus)
+})
+
+df_pos <- within(df_pos, {
+  Subject   <- factor(Subject)
+  Key_Stimulus <- factor(Key_Stimulus)
+})
+
+df_neg <- within(df_neg, {
+  Subject   <- factor(Subject)
+  Key_Stimulus <- factor(Key_Stimulus)
+})
+
+# 2. Initialise main dataset processing
+
+print("Mean reaction time from:")
+mean(df$RT_Stimulus[df$Key_Stimulus==273]) # up button
+print("Mean reaction time to:")
+mean(df$RT_Stimulus[df$Key_Stimulus==274]) # down button 
+
+# 3. Prepare means
 
 df.mean <- aggregate(df$RT_Stimulus,
                      by = list(df$Subject, df$Colour, df$Key_Stimulus), FUN = 'mean')
@@ -86,7 +123,7 @@ colnames(df.mean) <- c("Subject", "Colour", "Key_Stimulus", "RT_Stimulus")
 
 df.mean <- df.mean[order(df.mean$Subject), ]
 
-# 3.
+# 4. Calculate ANOVA
 
 result.aov <- with(df.mean,
                    aov(RT_Stimulus ~ Colour * Key_Stimulus +
@@ -94,10 +131,56 @@ result.aov <- with(df.mean,
 
 summary(result.aov)
 
+# 5. Initialise positive dataset processing
+
+print("Mean positive trial reaction time from:")
+mean(df$RT_Stimulus[df$Colour==0 & df$Key_Stimulus==273]) # up button
+print("Mean positive trial reaction time to:")
+mean(df$RT_Stimulus[df$Colour==0 & df$Key_Stimulus==274]) # down button 
+
+# 6. Prepare means
+
+df_pos.mean <- aggregate(df_pos$RT_Stimulus,
+                         by = list(df_pos$Subject, df_pos$Key_Stimulus), FUN = 'mean')
+colnames(df_pos.mean) <- c("Subject", "Key_Stimulus", "RT_Stimulus")
+
+df_pos.mean <- df_pos.mean[order(df_pos.mean$Subject), ]
+
+# 7. Calculate ANOVA
+
+result_pos.aov <- with(df_pos.mean,
+                       aov(RT_Stimulus ~ Key_Stimulus
+                       ))
+
+summary(result_pos.aov)
+
+# 8. Initialise negative dataset processing
+
+print("Mean negative trial reaction time from:")
+mean(df$RT_Stimulus[df$Colour==1 & df$Key_Stimulus==273]) # up button
+print("Mean negative trial reaction time to:")
+mean(df$RT_Stimulus[df$Colour==1 & df$Key_Stimulus==274]) # down button 
+
+# 9. Prepare means
+
+df_neg.mean <- aggregate(df_neg$RT_Stimulus,
+                         by = list(df_neg$Subject, df_neg$Key_Stimulus), FUN = 'mean')
+colnames(df_neg.mean) <- c("Subject", "Key_Stimulus", "RT_Stimulus")
+
+df_neg.mean <- df_neg.mean[order(df_neg.mean$Subject), ]
+
+# 10. Calculate ANOVA
+
+result_neg.aov <- with(df_neg.mean,
+                       aov(RT_Stimulus ~ Key_Stimulus
+                       ))
+
+summary(result_neg.aov)
+
 ```
 
-  Нам не удалось обнаружить статистически значимое различие между временем реакции испытуемых, вызванными разными группами стимулов (F(1, 64) = 1.636, p = 0.202).
+  В результате не была выявлена значитальная ввязь Характеристика (Эмоциональная окраска) X Движение (F(1, 65) = 0.187, p = 0.667). Для негативно окрашенных материалов реакции от себя не были более быстрыми, чем реакции на притягивание к себе (F(1, 65) = 0.008, p = 0.931) (M = 1002.071 vs. M = 1018.077 ms.), тогда как для положительных материалов реакция к себе была сильнее, чем от себя (F(1, 65) = 0.268, p = 0.605) (M = 997.2858 vs. M = 969.0559 ms.). То есть ответы, в которых эмоциональная окраска совместима с направлением движения, не были быстрее, чем те, которые были несовместимы (M = 999.6903 vs. M = 993.447 ms.), демонстрируя отсутствие эффекта совместимости.
 
-## Дискуссия
+## Обсуждение
 
   Несмотря на то, что мы пытались провести эксперимент в наиболее приближенных к оригинальному эксперименту условиях, нам не удаось подтвердить гипотезу. Вероятно, это связано с тем, что условия все-таки не были лабораторными. Так же проблема может заключаться в том, что испытуемые использовали кнопки на клавиатуре, а не джостик. Выбрав одну единственную кнопку, испытуемый с большей вероятностью будет нажимать именно на нее, потому что положение руки в течении длительного эксперимента менять не придется. 
