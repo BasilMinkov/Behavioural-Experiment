@@ -1,4 +1,4 @@
-# HSE Experiment in Cognitive Science Project, 2017
+# HSE Experiment in Cognitive Science Course Project, 2017
 
 Here we have the code to replicate an experiment described in article **"When language gets emotional: Irony 
 and the embodiment of affect in discourse"** by *R. Filik, C. M. Hunter, H.Leuthold, 2015*.
